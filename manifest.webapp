@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "name": "TakeNote",
+  "description": "TakeNote is a simple note-taking app for creating ,editing and deleting notes easily",
+  "launch_path": "/notelist.html",
+  "fullscreen": "true",
+  "icons": {
+    "128": "/images/icon_128.png",
+    "32": "/images/icon_32.png",
+	"60": "/images/icon_60.png",
+	"90": "/images/icon_90.png",
+	"120": "/images/icon_120.png",
+	"256": "/images/icon_256.png"
+  },
+  "developer": {
+    "name": "Firefox Club NIT TRICHY CHAPTER",
+    "url": "https://www.facebook.com/groups/firefoxNitt/"
+  },
+  "default_locale": "en"
+}

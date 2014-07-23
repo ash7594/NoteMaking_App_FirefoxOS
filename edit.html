@@ -1,0 +1,43 @@
+
+<html>
+<head>
+<link href="building/style/input_areas.css" rel="stylesheet" type="text/css">
+<link href="building/style/headers.css" rel="stylesheet" type="text/css">
+<link href="building/util.css" rel="stylesheet" type="text/css">
+<link href="building/fonts.css" rel="stylesheet" type="text/css">
+<link href="building/style/buttons.css" rel="stylesheet" type="text/css">
+
+<style>
+body {
+background-image:url('back.png');
+
+}
+</style><script type="text/javascript" src="notelist.js"></script></head>
+<div id ="note3" style="display:block;"><!--edit the note-->
+<section id="mainsection" role="region">
+
+			  <header>
+			    	<button onclick='removex()'><span class="icon icon-back"></span></button>
+			    	
+				    <menu type="toolbar">
+					    <button onclick="Reset();">Clear</button>
+					    <button onclick="cli()">Save</button>
+					</menu>
+					<h1>Edit Note</h1>
+			  </header>
+
+
+		  <div role="main">
+			  <form name="noteform">
+
+					<p><textarea id="title" placeholder="your note here" required=""></textarea></p>
+					
+			  </form>
+
+		  </div>
+
+
+		</section>
+</div>
+
+</html>
